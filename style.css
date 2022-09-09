@@ -114,11 +114,55 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 50px;
 }
 
 .boxinbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(37, 117, 244);
     border-radius: 5px;
+    width: 550px;
+    height: 75px;
+    gap: 100px;
 }
+
+.lefttext {
+    color: white;
+    padding: 20px;
+}
+
+.text1 {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.text2 {
+    font-size: 8px;
+}
+
+
+.button2 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color:rgb(37, 117, 244);
+    color: white;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 36, 48);
+    color: white;
+    height: 30px;
+}
+
+.copy {
+    font-size: 8px;
+}
+
